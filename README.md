@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # eCommerce Platform Project - MERN Stack
 
 Welcome to the eCommerce Platform Project built using the MERN (MongoDB, Express.js, React, Node.js) Stack. This project provides a robust and full-featured online shopping platform with various functionalities to enhance the user experience.
@@ -47,18 +48,82 @@ cd MERN-eCommerce
 1. Rename the `.env.example` file to `.env` and add the following environment variables:
 
 ```dotenv
+=======
+# mobi_e_commerce
+🛒 Commerce Platform Project - MERN Stack
+Welcome to the eCommerce Platform Project built using the MERN (MongoDB, Express.js, React, Node.js) Stack. This project delivers a robust and full-featured online shopping platform with many functionalities to enhance the user experience.
+
+🚀 Live App Demo
+🔗 https://mern-shop-abxs.onrender.com/
+
+⚠️ Note: Render's free tier shuts down after 15 minutes of inactivity. The first request after reactivation may be slow.
+
+✨ Features
+Full-Featured Shopping Cart: Add, remove, and manage products.
+
+Product Reviews and Ratings: Leave feedback and ratings.
+
+Top Products Carousel: Highlights top-rated items.
+
+Product Pagination: Efficient navigation.
+
+Product Search: Keyword-based search.
+
+User Profile & Orders: View and track order history.
+
+Admin Dashboard: Manage products, users, and orders.
+
+Manage Admins
+
+Manage Products (Add/Edit/Delete)
+
+Manage Users
+
+Detailed Order Info
+
+Mark Orders as Delivered
+
+Checkout Process: With shipping & payment method options.
+
+Razorpay Integration: Secure payment processing.
+
+Database Seeder: Populate with sample users/products.
+
+🧰 Getting Started
+✅ Prerequisites
+Fork and clone the repo:
+
+bash
+git clone https://github.com/your-username/MERN-eCommerce.git
+cd MERN-eCommerce
+Set up MongoDB (MongoDB Atlas recommended).
+
+Create Razorpay and Brevo (email) accounts.
+
+🔐 Environment Variables
+Rename .env.example to .env and add the following:
+
+env
+>>>>>>> 686cdd5f102058a1a379c83036d38aca60a59ef0
 NODE_ENV=development
 PORT=5000
 JWT_SECRET=ADD_YOUR_JWT_SECRET_HERE
 MONGO_URI=ADD_YOUR_MONGO_URI_HERE
+<<<<<<< HEAD
 RAZORPAY_KEY_ID=ADD_YOUT_RAZORPAY_KEY_ID
 RAZORPAY_KEY_SECRET=ADD_YOUR_RAZORPAY_KEY_SECRET
 PAGINATION_MAX_LIMIT=12 # This will show 12 products per page; you can change it.
+=======
+RAZORPAY_KEY_ID=ADD_YOUR_RAZORPAY_KEY_ID
+RAZORPAY_KEY_SECRET=ADD_YOUR_RAZORPAY_KEY_SECRET
+PAGINATION_MAX_LIMIT=12
+>>>>>>> 686cdd5f102058a1a379c83036d38aca60a59ef0
 EMAIL_HOST=smtp-relay.brevo.com
 EMAIL_PORT=587
 EMAIL_USER=ADD_YOUR_BREVO_LOGIN
 EMAIL_PASS=ADD_YOUR_BREVO_PASSWORD
 EMAIL_FROM=ADD_YOUR_BREVO_LOGIN
+<<<<<<< HEAD
 ```
 
 ### Install Dependencies
@@ -99,11 +164,37 @@ npm run build
 Use the following commands to seed the database with sample users and products, or destroy all data:
 
 ```bash
+=======
+📦 Install Dependencies
+bash
+# Root dependencies
+npm install
+
+# Frontend dependencies
+cd frontend
+npm install
+▶️ Run the App
+Run both frontend and backend:
+bash
+npm run dev
+Run only backend:
+bash
+npm run server
+🏗️ Build & Deploy
+To create a production build:
+
+bash
+cd frontend
+npm run build
+🌱 Seed Database
+bash
+>>>>>>> 686cdd5f102058a1a379c83036d38aca60a59ef0
 # Import data
 npm run data:import
 
 # Destroy data
 npm run data:destroy
+<<<<<<< HEAD
 ```
 
 ## Sample User Logins
@@ -195,3 +286,28 @@ Your contribution will be reviewed by the project maintainers. Be prepared to ad
 ## Thank You!
 
 Thank you for considering contributing to the eCommerce Platform Project. Your efforts help make this project better for everyone. If you have any questions or need assistance, feel free to reach out through the issue tracker or discussions. Happy coding🤩!
+=======
+🔑 Sample User Logins
+🔐 Admin Login
+https://mern-shop-abxs.onrender.com/admin/login
+
+Email: admin@admin.com
+
+Password: admin123
+
+👤 Customer Logins
+https://mern-shop-abxs.onrender.com/login
+
+John Doe
+
+Email: john@email.com
+
+Password: john123
+
+Alice Smith
+
+Email: alice@email.com
+
+Password: alice123
+
+>>>>>>> 686cdd5f102058a1a379c83036d38aca60a59ef0
